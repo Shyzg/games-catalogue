@@ -59,11 +59,8 @@
 		FB889D432835D0A400CEFF86 /* games-catalogue */ = {
 			isa = PBXGroup;
 			children = (
-				FBDF041C283D5FC2005AF0AB /* Base */,
 				FBDF0418283D5F66005AF0AB /* Models */,
 				FBDF041A283D5F9E005AF0AB /* Services */,
-				FBDF041B283D5FB7005AF0AB /* Utils */,
-				FBDF0419283D5F86005AF0AB /* Views */,
 				FB889D462835D0A400CEFF86 /* ContentView.swift */,
 				FB889D482835D0A900CEFF86 /* Assets.xcassets */,
 				FB889D4A2835D0A900CEFF86 /* Preview Content */,
@@ -89,16 +86,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		FBDF0419283D5F86005AF0AB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				FBDF041E283D5FF0005AF0AB /* Detail */,
-				FBDF041D283D5FE4005AF0AB /* Favorite */,
-				FBDF041F283D5FF6005AF0AB /* Home */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		FBDF041A283D5F9E005AF0AB /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,41 +93,6 @@
 				FBDF0428283D6131005AF0AB /* GameConfig.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		FBDF041B283D5FB7005AF0AB /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		FBDF041C283D5FC2005AF0AB /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		FBDF041D283D5FE4005AF0AB /* Favorite */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Favorite;
-			sourceTree = "<group>";
-		};
-		FBDF041E283D5FF0005AF0AB /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Detail;
-			sourceTree = "<group>";
-		};
-		FBDF041F283D5FF6005AF0AB /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
