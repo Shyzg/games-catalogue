@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB0F7F562835D543003409A0 /* Game_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0F7F552835D543003409A0 /* Game_SwiftUIApp.swift */; };
 		FB889D472835D0A400CEFF86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB889D462835D0A400CEFF86 /* ContentView.swift */; };
 		FB889D492835D0A900CEFF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB889D482835D0A900CEFF86 /* Assets.xcassets */; };
 		FB889D4C2835D0A900CEFF86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB889D4B2835D0A900CEFF86 /* Preview Assets.xcassets */; };
+		FBDF0421283D601A005AF0AB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0420283D601A005AF0AB /* Game.swift */; };
+		FBDF0423283D603A005AF0AB /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0422283D603A005AF0AB /* GameDetail.swift */; };
+		FBDF0425283D6073005AF0AB /* GameProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0424283D6073005AF0AB /* GameProvider.swift */; };
+		FBDF0427283D609E005AF0AB /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0426283D609E005AF0AB /* GameService.swift */; };
+		FBDF0429283D6131005AF0AB /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0428283D6131005AF0AB /* GameConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB0F7F552835D543003409A0 /* Game_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Game_SwiftUIApp.swift; path = "/Users/shyzagonakamoto/Downloads/Kuliah/Mata Kuliah/Advanced Mobile Apps Development/Game-SwiftUI/Game-SwiftUI/Game_SwiftUIApp.swift"; sourceTree = "<absolute>"; };
-		FB889D412835D0A400CEFF86 /* Game-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB889D412835D0A400CEFF86 /* games-catalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "games-catalogue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB889D462835D0A400CEFF86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB889D482835D0A900CEFF86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB889D4B2835D0A900CEFF86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBDF0420283D601A005AF0AB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FBDF0422283D603A005AF0AB /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
+		FBDF0424283D6073005AF0AB /* GameProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProvider.swift; sourceTree = "<group>"; };
+		FBDF0426283D609E005AF0AB /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		FBDF0428283D6131005AF0AB /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +43,7 @@
 		FB889D382835D0A400CEFF86 = {
 			isa = PBXGroup;
 			children = (
-				FB889D432835D0A400CEFF86 /* Game-SwiftUI */,
+				FB889D432835D0A400CEFF86 /* games-catalogue */,
 				FB889D422835D0A400CEFF86 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +51,24 @@
 		FB889D422835D0A400CEFF86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB889D412835D0A400CEFF86 /* Game-SwiftUI.app */,
+				FB889D412835D0A400CEFF86 /* games-catalogue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB889D432835D0A400CEFF86 /* Game-SwiftUI */ = {
+		FB889D432835D0A400CEFF86 /* games-catalogue */ = {
 			isa = PBXGroup;
 			children = (
-				FB0F7F552835D543003409A0 /* Game_SwiftUIApp.swift */,
+				FBDF041C283D5FC2005AF0AB /* Base */,
+				FBDF0418283D5F66005AF0AB /* Models */,
+				FBDF041A283D5F9E005AF0AB /* Services */,
+				FBDF041B283D5FB7005AF0AB /* Utils */,
+				FBDF0419283D5F86005AF0AB /* Views */,
 				FB889D462835D0A400CEFF86 /* ContentView.swift */,
 				FB889D482835D0A900CEFF86 /* Assets.xcassets */,
 				FB889D4A2835D0A900CEFF86 /* Preview Content */,
 			);
-			path = "Game-SwiftUI";
+			path = "games-catalogue";
 			sourceTree = "<group>";
 		};
 		FB889D4A2835D0A900CEFF86 /* Preview Content */ = {
@@ -67,12 +79,76 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FBDF0418283D5F66005AF0AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBDF0420283D601A005AF0AB /* Game.swift */,
+				FBDF0422283D603A005AF0AB /* GameDetail.swift */,
+				FBDF0424283D6073005AF0AB /* GameProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FBDF0419283D5F86005AF0AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBDF041E283D5FF0005AF0AB /* Detail */,
+				FBDF041D283D5FE4005AF0AB /* Favorite */,
+				FBDF041F283D5FF6005AF0AB /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBDF041A283D5F9E005AF0AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FBDF0426283D609E005AF0AB /* GameService.swift */,
+				FBDF0428283D6131005AF0AB /* GameConfig.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FBDF041B283D5FB7005AF0AB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FBDF041C283D5FC2005AF0AB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FBDF041D283D5FE4005AF0AB /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		FBDF041E283D5FF0005AF0AB /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FBDF041F283D5FF6005AF0AB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB889D402835D0A400CEFF86 /* Game-SwiftUI */ = {
+		FB889D402835D0A400CEFF86 /* games-catalogue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB889D4F2835D0A900CEFF86 /* Build configuration list for PBXNativeTarget "Game-SwiftUI" */;
+			buildConfigurationList = FB889D4F2835D0A900CEFF86 /* Build configuration list for PBXNativeTarget "games-catalogue" */;
 			buildPhases = (
 				FB889D3D2835D0A400CEFF86 /* Sources */,
 				FB889D3E2835D0A400CEFF86 /* Frameworks */,
@@ -82,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = "Game-SwiftUI";
+			name = "games-catalogue";
 			productName = "Game-SwiftUI";
-			productReference = FB889D412835D0A400CEFF86 /* Game-SwiftUI.app */;
+			productReference = FB889D412835D0A400CEFF86 /* games-catalogue.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FB889D3C2835D0A400CEFF86 /* Build configuration list for PBXProject "Game-SwiftUI" */;
+			buildConfigurationList = FB889D3C2835D0A400CEFF86 /* Build configuration list for PBXProject "games-catalogue" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB889D402835D0A400CEFF86 /* Game-SwiftUI */,
+				FB889D402835D0A400CEFF86 /* games-catalogue */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB889D472835D0A400CEFF86 /* ContentView.swift in Sources */,
-				FB0F7F562835D543003409A0 /* Game_SwiftUIApp.swift in Sources */,
+				FBDF0429283D6131005AF0AB /* GameConfig.swift in Sources */,
+				FBDF0423283D603A005AF0AB /* GameDetail.swift in Sources */,
+				FBDF0427283D609E005AF0AB /* GameService.swift in Sources */,
+				FBDF0425283D6073005AF0AB /* GameProvider.swift in Sources */,
+				FBDF0421283D601A005AF0AB /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +346,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Game-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"games-catalogue/Preview Content\"";
 				DEVELOPMENT_TEAM = X2Y9BAX6QL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,8 +360,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shyzagonakamoto.Game-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shyzagonakamoto.games-catalogue";
+				PRODUCT_NAME = "games-catalogue";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Game-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"games-catalogue/Preview Content\"";
 				DEVELOPMENT_TEAM = X2Y9BAX6QL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,8 +389,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shyzagonakamoto.Game-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shyzagonakamoto.games-catalogue";
+				PRODUCT_NAME = "games-catalogue";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +400,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB889D3C2835D0A400CEFF86 /* Build configuration list for PBXProject "Game-SwiftUI" */ = {
+		FB889D3C2835D0A400CEFF86 /* Build configuration list for PBXProject "games-catalogue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB889D4D2835D0A900CEFF86 /* Debug */,
@@ -329,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB889D4F2835D0A900CEFF86 /* Build configuration list for PBXNativeTarget "Game-SwiftUI" */ = {
+		FB889D4F2835D0A900CEFF86 /* Build configuration list for PBXNativeTarget "games-catalogue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB889D502835D0A900CEFF86 /* Debug */,
