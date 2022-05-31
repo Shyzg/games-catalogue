@@ -7,40 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB2AA8ED283E0720001DD0E4 /* GameDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AA8EC283E0720001DD0E4 /* GameDetailPage.swift */; };
-		FB2AA8EF283E0754001DD0E4 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AA8EE283E0754001DD0E4 /* GameDetailView.swift */; };
-		FB2AA8F1283E0766001DD0E4 /* GameDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AA8F0283E0766001DD0E4 /* GameDetailViewModel.swift */; };
-		FB2AA8F3283E078A001DD0E4 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AA8F2283E078A001DD0E4 /* HomePage.swift */; };
-		FB2AA8F5283E07A7001DD0E4 /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AA8F4283E07A7001DD0E4 /* GameRow.swift */; };
-		FB2AA8F7283E07BD001DD0E4 /* HomeGameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AA8F6283E07BD001DD0E4 /* HomeGameList.swift */; };
-		FB2AA8F9283E07D5001DD0E4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AA8F8283E07D5001DD0E4 /* HomeViewModel.swift */; };
+		FB4DC82D2845B54A0029EC77 /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC82C2845B54A0029EC77 /* Creator.swift */; };
+		FB4DC82F2845B5810029EC77 /* GamePopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC82E2845B5810029EC77 /* GamePopular.swift */; };
+		FB4DC8312845B5C30029EC77 /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8302845B5C30029EC77 /* GameDetail.swift */; };
+		FB4DC8332845B6120029EC77 /* CreatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8322845B6120029EC77 /* CreatorDetail.swift */; };
+		FB4DC8352845B62A0029EC77 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8342845B62A0029EC77 /* Genre.swift */; };
+		FB4DC8372845B63E0029EC77 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8362845B63E0029EC77 /* Carousel.swift */; };
+		FB4DC8392845B6970029EC77 /* GameSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8382845B6970029EC77 /* GameSuggestion.swift */; };
+		FB4DC83B2845B6C70029EC77 /* GameFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC83A2845B6C70029EC77 /* GameFavorite.swift */; };
+		FB4DC83E2845B7CB0029EC77 /* CreatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC83D2845B7CB0029EC77 /* CreatorViewModel.swift */; };
+		FB4DC8402845B7FD0029EC77 /* GamePopularViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC83F2845B7FD0029EC77 /* GamePopularViewModel.swift */; };
+		FB4DC8422845B8340029EC77 /* GameDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8412845B8340029EC77 /* GameDetailViewModel.swift */; };
+		FB4DC8442845B8D10029EC77 /* GameSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8432845B8D10029EC77 /* GameSearchViewModel.swift */; };
+		FB4DC8462845B9560029EC77 /* GameFavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8452845B9560029EC77 /* GameFavoriteViewModel.swift */; };
+		FB4DC8482845B9C10029EC77 /* CreatorDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8472845B9C10029EC77 /* CreatorDetailViewModel.swift */; };
+		FB4DC84A2845B9E80029EC77 /* GenreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8492845B9E80029EC77 /* GenreViewModel.swift */; };
+		FB4DC84D2845BAFF0029EC77 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC84C2845BAFF0029EC77 /* ImagePicker.swift */; };
+		FB4DC84F2845BB400029EC77 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC84E2845BB400029EC77 /* Extension.swift */; };
+		FB4DC8512845BB5F0029EC77 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8502845BB5F0029EC77 /* Constant.swift */; };
+		FB4DC8542845BCA50029EC77 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FB4DC8532845BCA50029EC77 /* SDWebImageSwiftUI */; };
+		FB4DC8572845BF880029EC77 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = FB4DC8562845BF880029EC77 /* Realm */; };
+		FB4DC8592845BF880029EC77 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB4DC8582845BF880029EC77 /* RealmSwift */; };
+		FB4DC8632845C1B90029EC77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8622845C1B90029EC77 /* AppDelegate.swift */; };
+		FB4DC8652845C1C80029EC77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4DC8642845C1C80029EC77 /* SceneDelegate.swift */; };
 		FB889D472835D0A400CEFF86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB889D462835D0A400CEFF86 /* ContentView.swift */; };
 		FB889D492835D0A900CEFF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB889D482835D0A900CEFF86 /* Assets.xcassets */; };
 		FB889D4C2835D0A900CEFF86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB889D4B2835D0A900CEFF86 /* Preview Assets.xcassets */; };
-		FBDF0421283D601A005AF0AB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0420283D601A005AF0AB /* Game.swift */; };
-		FBDF0423283D603A005AF0AB /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0422283D603A005AF0AB /* GameDetail.swift */; };
-		FBDF0425283D6073005AF0AB /* GameProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0424283D6073005AF0AB /* GameProvider.swift */; };
-		FBDF0427283D609E005AF0AB /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0426283D609E005AF0AB /* GameService.swift */; };
-		FBDF0429283D6131005AF0AB /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDF0428283D6131005AF0AB /* GameConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB2AA8EC283E0720001DD0E4 /* GameDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailPage.swift; sourceTree = "<group>"; };
-		FB2AA8EE283E0754001DD0E4 /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
-		FB2AA8F0283E0766001DD0E4 /* GameDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailViewModel.swift; sourceTree = "<group>"; };
-		FB2AA8F2283E078A001DD0E4 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
-		FB2AA8F4283E07A7001DD0E4 /* GameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRow.swift; sourceTree = "<group>"; };
-		FB2AA8F6283E07BD001DD0E4 /* HomeGameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGameList.swift; sourceTree = "<group>"; };
-		FB2AA8F8283E07D5001DD0E4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FB4DC82C2845B54A0029EC77 /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
+		FB4DC82E2845B5810029EC77 /* GamePopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePopular.swift; sourceTree = "<group>"; };
+		FB4DC8302845B5C30029EC77 /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
+		FB4DC8322845B6120029EC77 /* CreatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorDetail.swift; sourceTree = "<group>"; };
+		FB4DC8342845B62A0029EC77 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		FB4DC8362845B63E0029EC77 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		FB4DC8382845B6970029EC77 /* GameSuggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSuggestion.swift; sourceTree = "<group>"; };
+		FB4DC83A2845B6C70029EC77 /* GameFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFavorite.swift; sourceTree = "<group>"; };
+		FB4DC83D2845B7CB0029EC77 /* CreatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorViewModel.swift; sourceTree = "<group>"; };
+		FB4DC83F2845B7FD0029EC77 /* GamePopularViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePopularViewModel.swift; sourceTree = "<group>"; };
+		FB4DC8412845B8340029EC77 /* GameDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailViewModel.swift; sourceTree = "<group>"; };
+		FB4DC8432845B8D10029EC77 /* GameSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSearchViewModel.swift; sourceTree = "<group>"; };
+		FB4DC8452845B9560029EC77 /* GameFavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFavoriteViewModel.swift; sourceTree = "<group>"; };
+		FB4DC8472845B9C10029EC77 /* CreatorDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorDetailViewModel.swift; sourceTree = "<group>"; };
+		FB4DC8492845B9E80029EC77 /* GenreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewModel.swift; sourceTree = "<group>"; };
+		FB4DC84C2845BAFF0029EC77 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FB4DC84E2845BB400029EC77 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FB4DC8502845BB5F0029EC77 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		FB4DC8622845C1B90029EC77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB4DC8642845C1C80029EC77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FB889D412835D0A400CEFF86 /* games-catalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "games-catalogue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB889D462835D0A400CEFF86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB889D482835D0A900CEFF86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB889D4B2835D0A900CEFF86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FBDF0420283D601A005AF0AB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		FBDF0422283D603A005AF0AB /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
-		FBDF0424283D6073005AF0AB /* GameProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProvider.swift; sourceTree = "<group>"; };
-		FBDF0426283D609E005AF0AB /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
-		FBDF0428283D6131005AF0AB /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4DC8592845BF880029EC77 /* RealmSwift in Frameworks */,
+				FB4DC8572845BF880029EC77 /* Realm in Frameworks */,
+				FB4DC8542845BCA50029EC77 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,31 +79,42 @@
 		FB2AA8E7283E061F001DD0E4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FB2AA8E8283E0625001DD0E4 /* Detail */,
-				FB2AA8E9283E062E001DD0E4 /* Home */,
+				FB4DC83C2845B73E0029EC77 /* ViewModel */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		FB2AA8E8283E0625001DD0E4 /* Detail */ = {
+		FB4DC83C2845B73E0029EC77 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				FB2AA8EC283E0720001DD0E4 /* GameDetailPage.swift */,
-				FB2AA8F0283E0766001DD0E4 /* GameDetailViewModel.swift */,
-				FB2AA8EE283E0754001DD0E4 /* GameDetailView.swift */,
+				FB4DC83D2845B7CB0029EC77 /* CreatorViewModel.swift */,
+				FB4DC8472845B9C10029EC77 /* CreatorDetailViewModel.swift */,
+				FB4DC8412845B8340029EC77 /* GameDetailViewModel.swift */,
+				FB4DC8452845B9560029EC77 /* GameFavoriteViewModel.swift */,
+				FB4DC83F2845B7FD0029EC77 /* GamePopularViewModel.swift */,
+				FB4DC8432845B8D10029EC77 /* GameSearchViewModel.swift */,
+				FB4DC8492845B9E80029EC77 /* GenreViewModel.swift */,
 			);
-			path = Detail;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		FB2AA8E9283E062E001DD0E4 /* Home */ = {
+		FB4DC84B2845BAE70029EC77 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				FB2AA8F4283E07A7001DD0E4 /* GameRow.swift */,
-				FB2AA8F2283E078A001DD0E4 /* HomePage.swift */,
-				FB2AA8F6283E07BD001DD0E4 /* HomeGameList.swift */,
-				FB2AA8F8283E07D5001DD0E4 /* HomeViewModel.swift */,
+				FB4DC84C2845BAFF0029EC77 /* ImagePicker.swift */,
+				FB4DC84E2845BB400029EC77 /* Extension.swift */,
+				FB4DC8502845BB5F0029EC77 /* Constant.swift */,
 			);
-			path = Home;
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FB4DC8612845C1AE0029EC77 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FB4DC8622845C1B90029EC77 /* AppDelegate.swift */,
+				FB4DC8642845C1C80029EC77 /* SceneDelegate.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		FB889D382835D0A400CEFF86 = {
@@ -103,8 +136,9 @@
 		FB889D432835D0A400CEFF86 /* games-catalogue */ = {
 			isa = PBXGroup;
 			children = (
+				FB4DC8612845C1AE0029EC77 /* Base */,
+				FB4DC84B2845BAE70029EC77 /* Utils */,
 				FBDF0418283D5F66005AF0AB /* Models */,
-				FBDF041A283D5F9E005AF0AB /* Services */,
 				FB2AA8E7283E061F001DD0E4 /* Views */,
 				FB889D462835D0A400CEFF86 /* ContentView.swift */,
 				FB889D482835D0A900CEFF86 /* Assets.xcassets */,
@@ -124,20 +158,16 @@
 		FBDF0418283D5F66005AF0AB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FBDF0420283D601A005AF0AB /* Game.swift */,
-				FBDF0422283D603A005AF0AB /* GameDetail.swift */,
-				FBDF0424283D6073005AF0AB /* GameProvider.swift */,
+				FB4DC8362845B63E0029EC77 /* Carousel.swift */,
+				FB4DC82C2845B54A0029EC77 /* Creator.swift */,
+				FB4DC8322845B6120029EC77 /* CreatorDetail.swift */,
+				FB4DC8302845B5C30029EC77 /* GameDetail.swift */,
+				FB4DC83A2845B6C70029EC77 /* GameFavorite.swift */,
+				FB4DC82E2845B5810029EC77 /* GamePopular.swift */,
+				FB4DC8382845B6970029EC77 /* GameSuggestion.swift */,
+				FB4DC8342845B62A0029EC77 /* Genre.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		FBDF041A283D5F9E005AF0AB /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				FBDF0426283D609E005AF0AB /* GameService.swift */,
-				FBDF0428283D6131005AF0AB /* GameConfig.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +186,11 @@
 			dependencies = (
 			);
 			name = "games-catalogue";
+			packageProductDependencies = (
+				FB4DC8532845BCA50029EC77 /* SDWebImageSwiftUI */,
+				FB4DC8562845BF880029EC77 /* Realm */,
+				FB4DC8582845BF880029EC77 /* RealmSwift */,
+			);
 			productName = "Game-SwiftUI";
 			productReference = FB889D412835D0A400CEFF86 /* games-catalogue.app */;
 			productType = "com.apple.product-type.application";
@@ -184,6 +219,10 @@
 				Base,
 			);
 			mainGroup = FB889D382835D0A400CEFF86;
+			packageReferences = (
+				FB4DC8522845BCA50029EC77 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				FB4DC8552845BF880029EC77 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = FB889D422835D0A400CEFF86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -210,19 +249,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2AA8F5283E07A7001DD0E4 /* GameRow.swift in Sources */,
+				FB4DC8632845C1B90029EC77 /* AppDelegate.swift in Sources */,
+				FB4DC8462845B9560029EC77 /* GameFavoriteViewModel.swift in Sources */,
+				FB4DC8422845B8340029EC77 /* GameDetailViewModel.swift in Sources */,
+				FB4DC83E2845B7CB0029EC77 /* CreatorViewModel.swift in Sources */,
+				FB4DC84D2845BAFF0029EC77 /* ImagePicker.swift in Sources */,
+				FB4DC8442845B8D10029EC77 /* GameSearchViewModel.swift in Sources */,
+				FB4DC8652845C1C80029EC77 /* SceneDelegate.swift in Sources */,
 				FB889D472835D0A400CEFF86 /* ContentView.swift in Sources */,
-				FBDF0429283D6131005AF0AB /* GameConfig.swift in Sources */,
-				FBDF0423283D603A005AF0AB /* GameDetail.swift in Sources */,
-				FBDF0427283D609E005AF0AB /* GameService.swift in Sources */,
-				FB2AA8F1283E0766001DD0E4 /* GameDetailViewModel.swift in Sources */,
-				FB2AA8F3283E078A001DD0E4 /* HomePage.swift in Sources */,
-				FB2AA8ED283E0720001DD0E4 /* GameDetailPage.swift in Sources */,
-				FB2AA8F9283E07D5001DD0E4 /* HomeViewModel.swift in Sources */,
-				FB2AA8F7283E07BD001DD0E4 /* HomeGameList.swift in Sources */,
-				FBDF0425283D6073005AF0AB /* GameProvider.swift in Sources */,
-				FBDF0421283D601A005AF0AB /* Game.swift in Sources */,
-				FB2AA8EF283E0754001DD0E4 /* GameDetailView.swift in Sources */,
+				FB4DC8512845BB5F0029EC77 /* Constant.swift in Sources */,
+				FB4DC8482845B9C10029EC77 /* CreatorDetailViewModel.swift in Sources */,
+				FB4DC8392845B6970029EC77 /* GameSuggestion.swift in Sources */,
+				FB4DC8312845B5C30029EC77 /* GameDetail.swift in Sources */,
+				FB4DC8352845B62A0029EC77 /* Genre.swift in Sources */,
+				FB4DC8332845B6120029EC77 /* CreatorDetail.swift in Sources */,
+				FB4DC83B2845B6C70029EC77 /* GameFavorite.swift in Sources */,
+				FB4DC84F2845BB400029EC77 /* Extension.swift in Sources */,
+				FB4DC82F2845B5810029EC77 /* GamePopular.swift in Sources */,
+				FB4DC8402845B7FD0029EC77 /* GamePopularViewModel.swift in Sources */,
+				FB4DC82D2845B54A0029EC77 /* Creator.swift in Sources */,
+				FB4DC8372845B63E0029EC77 /* Carousel.swift in Sources */,
+				FB4DC84A2845B9E80029EC77 /* GenreViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +470,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB4DC8522845BCA50029EC77 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FB4DC8552845BF880029EC77 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB4DC8532845BCA50029EC77 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB4DC8522845BCA50029EC77 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		FB4DC8562845BF880029EC77 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB4DC8552845BF880029EC77 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		FB4DC8582845BF880029EC77 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB4DC8552845BF880029EC77 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB889D392835D0A400CEFF86 /* Project object */;
 }
