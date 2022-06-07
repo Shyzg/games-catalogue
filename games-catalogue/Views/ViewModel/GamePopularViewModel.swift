@@ -43,5 +43,6 @@ class GamePopularViewModel: ObservableObject {
 			}
 		}
 		.resume()
+		
 	}
 }

@@ -46,5 +46,6 @@ class GameSearchViewModel: ObservableObject {
 			}
 		}
 		.resume()
+		
 	}
 }

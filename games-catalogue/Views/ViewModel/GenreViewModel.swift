@@ -44,5 +44,6 @@ class GenreViewModel: ObservableObject {
 			}
 		}
 		.resume()
+		
 	}
 }

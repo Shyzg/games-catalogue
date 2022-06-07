@@ -43,5 +43,6 @@ class CreatorViewModel: ObservableObject {
 			}
 		}
 		.resume()
+		
 	}
 }
